@@ -15,7 +15,7 @@ func TestIntset(t *testing.T) {
 	//got := Intsetstruct{}
 	t.Run("adding element to set", func(t *testing.T) {
 		num := 1
-		testmap := Intsetstruct{}
+		testmap := intsetstruct{}
 		got := testmap.Addtoset(num)
 		if _, ok := got.elem[1]; ok {
 			fmt.Println("ok adding elem")
@@ -24,7 +24,7 @@ func TestIntset(t *testing.T) {
 		}
 	})
 	t.Run("deleting elem from set", func(t *testing.T) {
-		var testmap = Intsetstruct{}
+		var testmap = intsetstruct{}
 		testmap = testmap.Addtoset(1)
 		testmap = testmap.Addtoset(123)
 		got := testmap.Deletefromset(123)
@@ -37,7 +37,7 @@ func TestIntset(t *testing.T) {
 			fmt.Println("ok deleting elem")
 		}
 		t.Run("checking for element", func(t *testing.T) {
-			testmap := Intsetstruct{}
+			testmap := intsetstruct{}
 			testmap = testmap.Addtoset(2)
 			got := testmap.Checkforelem(2)
 			if got != true {
