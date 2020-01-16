@@ -1,0 +1,60 @@
+////////////////////////////////////////////////
+map[0:0 1:2 2:4 3:6 4:8 5:10 6:12 7:14 8:16 9:18]
+goos: linux
+goarch: amd64
+pkg: github.com/NikitaPrW/intern/task_three
+BenchmarkWorkerpool/Run_the_task-4         	       1	3000542400 ns/op
+2020/01/16 11:05:25 Correct
+BenchmarkWorkerpool/Check_for_completed_tasks-4         	2020/01/16 11:05:25 Correct
+2020/01/16 11:05:25 Correct
+2020/01/16 11:05:25 Correct
+2020/01/16 11:05:25 Correct
+2020/01/16 11:05:25 Correct
+1000000000	         0.000081 ns/op
+PASS
+ok  	github.com/NikitaPrW/intern/task_three	3.007s
+////////////////////////////////////////////////
+map[0:0 1:2 2:4 3:6 4:8 5:10 6:12 7:14 8:16 9:18]
+goos: linux
+goarch: amd64
+pkg: github.com/NikitaPrW/intern/task_three
+BenchmarkWorkerpool/Run_the_task-4         	       1	3000515429 ns/op
+2020/01/16 11:05:29 Correct
+BenchmarkWorkerpool/Check_for_completed_tasks-4         	2020/01/16 11:05:29 Correct
+2020/01/16 11:05:29 Correct
+2020/01/16 11:05:29 Correct
+2020/01/16 11:05:29 Correct
+2020/01/16 11:05:29 Correct
+1000000000	         0.000075 ns/op
+PASS
+ok  	github.com/NikitaPrW/intern/task_three	3.008s
+////////////////////////////////////////////////
+map[0:0 1:2 2:4 3:6 4:8 5:10 6:12 7:14 8:16 9:18]
+goos: linux
+goarch: amd64
+pkg: github.com/NikitaPrW/intern/task_three
+BenchmarkWorkerpool/Run_the_task-4         	       1	3000444265 ns/op
+2020/01/16 11:05:32 Correct
+BenchmarkWorkerpool/Check_for_completed_tasks-4         	2020/01/16 11:05:32 Correct
+2020/01/16 11:05:32 Correct
+2020/01/16 11:05:32 Correct
+2020/01/16 11:05:32 Correct
+2020/01/16 11:05:32 Correct
+1000000000	         0.000077 ns/op
+PASS
+ok  	github.com/NikitaPrW/intern/task_three	3.009s
+////////////////////////////////////////////////
+map[0:0 1:2 2:4 3:6 4:8 5:10 6:12 7:14 8:16 9:18]
+goos: linux
+goarch: amd64
+pkg: github.com/NikitaPrW/intern/task_three
+BenchmarkWorkerpool/Run_the_task-4         	       1	3000639008 ns/op
+2020/01/16 11:05:36 Correct
+BenchmarkWorkerpool/Check_for_completed_tasks-4         	2020/01/16 11:05:36 Correct
+2020/01/16 11:05:36 Correct
+2020/01/16 11:05:36 Correct
+2020/01/16 11:05:36 Correct
+2020/01/16 11:05:36 Correct
+1000000000	         0.000077 ns/op
+PASS
+ok  	github.com/NikitaPrW/intern/task_three	3.010s
